@@ -5,26 +5,25 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe",
-      "server": "89.47.55.9",
-      "server_port": 8443,
-      "uuid": "4350213a-b4e7-262a-0bd7-bd16957cf71a",
+      "tag": "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
+      "server": "193.29.225.249",
+      "server_port": 4443,
+      "uuid": "573bd634-8fad-46bd-9d76-7828df6dd05f",
       "tls": {
         "enabled": true,
-        "server_name": "www.sony.com",
+        "server_name": "o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev",
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "TWaatavWGcWV-E7c4AXmBXypLKJzm6eR3FGG61spayQ",
-          "short_id": ""
         }
       },
       "transport": {
-        "type": "grpc",
-        "service_name": "TunService"
+        "type": "ws",
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev"
+        }
       }
     },
     {
@@ -32,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe"
+        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe"
+        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

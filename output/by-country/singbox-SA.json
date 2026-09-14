@@ -5,23 +5,25 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇮🇪 爱尔兰 (Ireland) 01 - xiaohe",
-      "server": "3.9.135.156",
-      "server_port": 51847,
-      "uuid": "391a01e9-b664-407b-9158-610fab3f5920",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇸🇦 沙特 (Saudi Arabia) 01 - xiaohe",
+      "server": "81.208.170.142",
+      "server_port": 1500,
+      "uuid": "e332f028-d343-5b44-8016-b3130f39e133",
       "tls": {
         "enabled": true,
-        "server_name": "www.tesla.com",
+        "server_name": "www.ebay.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "S6noV0L8eNASnTe1gXLutLZNdfENsvKMsOJiGQYi6nc",
-          "short_id": "0eec442e7b34d2f2"
+          "public_key": "VQxVgczORkbSNdDrkNOYs6zMBINpViztTKDuWCeQsVE",
+          "short_id": "775eb6408888248e"
         }
+      },
+      "transport": {
+        "type": "grpc"
       }
     },
     {
@@ -29,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇪 爱尔兰 (Ireland) 01 - xiaohe"
+        "🇸🇦 沙特 (Saudi Arabia) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇪 爱尔兰 (Ireland) 01 - xiaohe"
+        "🇸🇦 沙特 (Saudi Arabia) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
