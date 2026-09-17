@@ -5,25 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇸🇦 沙特 (Saudi Arabia) 01 - xiaohe",
-      "server": "81.208.170.142",
-      "server_port": 1500,
-      "uuid": "e332f028-d343-5b44-8016-b3130f39e133",
+      "tag": "🇮🇶 IQ 01 - xiaohe",
+      "server": "185.255.179.11",
+      "server_port": 9443,
+      "uuid": "d9d0f208-d582-41d5-bb7b-742671402810",
       "tls": {
         "enabled": true,
-        "server_name": "www.ebay.com",
+        "server_name": "hub-de-03.hanvpn.cc",
+        "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "VQxVgczORkbSNdDrkNOYs6zMBINpViztTKDuWCeQsVE",
-          "short_id": "775eb6408888248e"
+          "fingerprint": "firefox"
         }
       },
       "transport": {
-        "type": "grpc"
+        "type": "grpc",
+        "service_name": "de03-grpc-8e47a"
       }
     },
     {
@@ -31,14 +28,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇦 沙特 (Saudi Arabia) 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇦 沙特 (Saudi Arabia) 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
