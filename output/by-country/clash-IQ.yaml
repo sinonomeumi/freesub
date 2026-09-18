@@ -5,20 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇶 IQ 01 - xiaohe
-  server: 66.81.247.155
-  port: 2083
+  server: 89.110.66.154
+  port: 443
   udp: true
   type: vless
-  uuid: 6cc29a05-4828-4e48-a34a-20b7ada60e85
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
-  servername: testmikonim.hydrymhmdamyn7.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /OAZko425kNFF0PpQ
+    path: /streams/home?ed=2560fp=chrome
     headers:
-      Host: testmikonim.hydrymhmdamyn7.workers.dev
+      Host: cdn8848.776676.xyz
 proxy-groups:
 - name: PROXIES
   type: select
