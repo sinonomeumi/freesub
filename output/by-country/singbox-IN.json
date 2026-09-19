@@ -4,15 +4,26 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇮🇳 印度 (India) 01 - xiaohe",
-      "server": "vpn-in-001.fastervpn.world",
+      "server": "104.21.69.118",
       "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "uuid": "1443b7a1-7ba9-4ec9-b904-2e867367b5d7",
       "tls": {
         "enabled": true,
-        "server_name": "speedtest.tinkoff.ru",
-        "insecure": true
+        "server_name": "odd-violet-5440.asdgrweeee13.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sync",
+        "headers": {
+          "Host": "odd-violet-5440.asdgrweeee13.workers.dev"
+        }
       }
     },
     {
@@ -29,7 +40,7 @@
     {
       "type": "hysteria2",
       "tag": "🇮🇳 印度 (India) 03 - xiaohe",
-      "server": "35.154.58.87",
+      "server": "13.207.151.141",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
