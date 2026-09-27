@@ -5,11 +5,16 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
-  server: 45.164.20.114
-  port: 10226
+  server: 154.197.75.40
+  port: 8880
   udp: true
   type: vless
-  uuid: 9aab8f39-ccb3-44ea-acdc-a8aefe211287
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime37.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
